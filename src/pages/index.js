@@ -4,9 +4,17 @@ import Layout from '../components/Layout';
 import Featured from '../components/Featured-Work'
 
 const featured=[
-    {title:'hi',img:'/img/somenthing.png'},
-    {title:'hello',img:'/img/somenthing.png'},
-    {title:'asdf',img:'https://via.placeholder.com/150'}
+    {title:'hi',
+     img:'https://via.placeholder.com/150',
+     synopsis:'blurb here'},
+
+    {title:'hello',
+     img:'https://via.placeholder.com/150',
+     synopsis:'blurb here'},
+     
+    {title:'asdf',
+     img:'https://via.placeholder.com/150',
+     synopsis:'blurb here'}
 ]
 
 function IndexPage() {
