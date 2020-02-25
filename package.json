@@ -11,6 +11,7 @@
         "clean": "gatsby clean"
     },
     "dependencies": {
+        "antd": "^3.26.12",
         "gatsby": "^2.19.18",
         "gatsby-plugin-react-helmet": "^3.1.22",
         "gatsby-plugin-sass": "^2.1.28",
@@ -21,6 +22,7 @@
         "react-helmet": "^5.2.1"
     },
     "devDependencies": {
+        "mixitup": "^3.3.1",
         "prettier": "^1.19.1"
     }
 }

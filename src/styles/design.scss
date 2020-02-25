@@ -5,6 +5,10 @@
 // BEIGE: #E9E4D9
 
 @import 'index.scss';
+@import 'work.scss';
+@import 'antd/es/button/style';
+@import 'antd/es/radio/style';
+
 
 html {
     width: 100%;
@@ -39,6 +43,9 @@ a {
     width: 100%;
     z-index: 5;
     margin-bottom: 8vw;
+    background-color:#E9E4D9;
+    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 
     ul {
         // background-color: white;

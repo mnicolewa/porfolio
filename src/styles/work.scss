@@ -1,0 +1,89 @@
+.UI {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    // border: solid black;
+    margin-top: .5vw;
+}
+
+.line {
+    width: 50%;
+    height: .5px;
+    border: solid rgb(221, 216, 216) thin;
+    margin: auto;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 75%;
+
+    margin: auto;
+
+}
+
+.wrapper {
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 22vw;
+    width: 22vw;
+
+    opacity: 0;
+    
+    .text {
+        width: 22vw;
+        padding: 1.5vw 1.5vw;
+
+
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        font-size: 1.2vw;
+    }
+}
+
+.wrapper:hover{
+    opacity: .9;
+    transition: .35s ease;
+    background-color: rgb(241, 241, 241);
+}
+
+.projectImage {
+    width: 22vw;
+    height: 22vw;
+}
+
+
+/* Target Elements
+---------------------------------------------------------------------- */
+
+.mix,
+.gap {
+    margin-top: 1.5vw;
+    display: inline-block;
+    vertical-align: top;
+    width: 22vw;
+    height: 22vw;
+}
+
+.mix {
+    background: #fff;
+    border-top: .5rem solid currentColor;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+    position: relative;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.mix:before {
+    content: '';
+    display: inline-block;
+    padding-top: 56.25%;
+}

@@ -13,7 +13,7 @@ function Featured(props) {
             <div class="workbox">
                     <div class="accent first"></div>
                 <div class="project one">
-                    <img class="image" src={props.img}></img>
+                    <img class="image" alt='' src={props.img}></img>
                 <div class="textbox">
                     <h3>{props.title}</h3>
                     <p>{props.synopsis}</p>
