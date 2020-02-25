@@ -6,8 +6,11 @@
 
 @import 'index.scss';
 @import 'work.scss';
+
 @import 'antd/es/button/style';
 @import 'antd/es/radio/style';
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
 
 
 html {
@@ -24,6 +27,8 @@ body {
     height: 100%;
     margin: 0;
     padding-top: 10vw;
+
+    font-family: 'Crimson Text', 'Georgia', 'Times New Roman';
 
 }
 

@@ -45,7 +45,7 @@ function WorkPage() {
     return (
         <Layout>
             <div className='UI'>
-                <Radio.Group size='large'>
+                <Radio.Group size='large' >
                     <Radio.Button >All</Radio.Button>
                     <Radio.Button value='ux/ui'>UX/UI</Radio.Button>
                     <Radio.Button value='graphics'>Graphics</Radio.Button>
