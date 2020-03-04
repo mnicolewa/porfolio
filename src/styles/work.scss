@@ -16,13 +16,19 @@
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 75%;
+    @include breakpoint(sm) {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        width: 85%;
+        margin: auto;
+    }
 
+    width: 30%;
+    flex-direction: row;
+    justify-content: center;
     margin: auto;
-
+    align-items: center;
 }
 
 .wrapper {
@@ -64,7 +70,7 @@
 
 .mix,
 .gap {
-    margin-top: 1.5vw;
+    margin: 1.5vw 1.5vw 0 4vw;
     display: inline-block;
     vertical-align: top;
     width: 22vw;
