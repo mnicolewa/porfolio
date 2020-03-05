@@ -4,15 +4,15 @@ import Layout from '../components/Layout';
 import Featured from '../components/Featured-Work'
 
 const featured=[
-    {title:'hi',
+    {title:'Velocity: Rebrand',
      img:'https://via.placeholder.com/150',
      synopsis:'blurb here'},
 
-    {title:'hello',
+    {title:'STEM',
      img:'https://via.placeholder.com/150',
      synopsis:'blurb here'},
      
-    {title:'asdf',
+    {title:'Brown Suga King Logo',
      img:'https://via.placeholder.com/150',
      synopsis:'blurb here'}
 ]

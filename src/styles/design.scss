@@ -7,6 +7,7 @@
 @import '_mixins';
 @import 'index.scss';
 @import 'work.scss';
+@import 'about.scss';
 
 @import 'antd/es/button/style';
 @import 'antd/es/radio/style';
@@ -30,6 +31,7 @@ body {
     padding-top: 10vw;
 
     font-family: 'Crimson Text', 'Georgia', 'Times New Roman';
+    color: black;
 
 }
 

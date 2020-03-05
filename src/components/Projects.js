@@ -4,7 +4,8 @@ const projects = {
     title: '',
     img:'',
     tag:'',
-    link:''
+    link:'',
+    value:''
 }
 
 function Projects(props) {
